@@ -98,7 +98,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
 
             <View
                 android:layout_width="200dp"
@@ -122,19 +123,14 @@
                 />
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/btnSignUp_login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Daftar Sebagai Pelanggan"
-            android:clickable="true"
-            android:textStyle="bold"
-            android:padding="8dp"
-            android:textColor="#ffff"
-            android:background="@color/colorPrimary"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            />
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daftar Sebagai Pelanggan"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorWhite"
+                />
 
         <ProgressBar
             android:id="@+id/progressBar"
