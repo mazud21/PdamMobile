@@ -1,13 +1,23 @@
 package com.pdammobile.Model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class InfoMasalah {
+    @SerializedName("no_info")
     private int no_info;
+    @SerializedName("wilayah")
     private String wilayah;
+    @SerializedName("hari")
     private String hari;
+    @SerializedName("tanggal")
     private String tanggal;
+    @SerializedName("estimasi")
     private String estimasi;
+    @SerializedName("kerusakan")
     private String kerusakan;
+    @SerializedName("alternatif")
     private String alternatif;
+    @SerializedName("penanganan")
     private String penanganan;
 
     public InfoMasalah(int no_info, String wilayah, String hari, String tanggal, String estimasi, String kerusakan, String alternatif, String penanganan) {

@@ -1,8 +1,13 @@
 package com.pdammobile.Model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class ConfigInfoMasalah {
+    @SerializedName("status")
     String status;
+    @SerializedName("result")
     InfoMasalah minfoMasalah;
+    @SerializedName("message")
     String message;
 
     public String getStatus() {

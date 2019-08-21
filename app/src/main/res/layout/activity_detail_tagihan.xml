@@ -30,7 +30,7 @@
             />
 
             <TextView
-                android:id="@+id/namaPell"
+                android:id="@+id/txtWilayah"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Nama Pelanggan"
@@ -57,7 +57,7 @@
             android:layout_margin="8dp"/>
 
             <TextView
-                android:id="@+id/alamat"
+                android:id="@+id/txtHari"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Alamat Pelanggan"
@@ -83,7 +83,7 @@
             android:layout_margin="8dp"/>
 
             <TextView
-                android:id="@+id/noTelp"
+                android:id="@+id/txtTanggal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Nomor Telpon Pelanggan"
@@ -109,7 +109,7 @@
             android:layout_margin="8dp"/>
 
             <TextView
-                android:id="@+id/bulan"
+                android:id="@+id/txtEstimasi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Bulan Tagihan"

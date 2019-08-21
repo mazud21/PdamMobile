@@ -7,6 +7,9 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.pdammobile.Model.InfoMasalah;
+import com.pdammobile.ui.InfoMasalahUI;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -37,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         llInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent_info = new Intent(MainActivity.this,InfoMasalah.class);
+                Intent intent_info = new Intent(MainActivity.this, InfoMasalahUI.class);
                 startActivity(intent_info);
             }
         });

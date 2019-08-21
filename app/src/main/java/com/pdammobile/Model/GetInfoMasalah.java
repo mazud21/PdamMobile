@@ -1,11 +1,15 @@
 package com.pdammobile.Model;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.List;
 
 public class GetInfoMasalah {
+    @SerializedName("ststus")
     String status;
-    String result;
+    @SerializedName("message")
     String message;
+    @SerializedName("result")
     List<InfoMasalah> listDataInfoMasalah;
 
     public String getStatus() {
@@ -14,14 +18,6 @@ public class GetInfoMasalah {
 
     public void setStatus(String status) {
         this.status = status;
-    }
-
-    public String getResult() {
-        return result;
-    }
-
-    public void setResult(String result) {
-        this.result = result;
     }
 
     public String getMessage() {
